@@ -12,11 +12,11 @@ To install and compile the project, use the following commands:
 make
 ## Usage
 To use the program, run the compiled binary and provide the necessary arguments:
-
+```
   int main() {
-    my_printf("some text [your flags]", [arguments]);
+    my_printf("some text <ins>[your flags]</ins>", <ins>[arguments]</ins>);
     return 0;
 }
-
+```
 For exemple, if you do: my_printf("Well done, you finished with %d points!", 27);
 It will print: "Well done, you finished with 27 points!".
