@@ -18,5 +18,11 @@ To use the program, run the compiled binary and provide the necessary arguments:
     return 0;
 }
 ```
-For exemple, if you do: my_printf("Well done, you finished with %d points!", 27);
+For exemple, if you do: 
+```
+  int main() {
+    my_printf("Well done, you finished with %d points!", 27);
+    return 0;
+}
+```
 It will print: "Well done, you finished with 27 points!".
